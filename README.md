@@ -15,7 +15,7 @@ using an implemented design on your Basys3 boards.
 
 ## Lab Summary
 
-In this lab, we generated a naive equation to represent the truth table we were given. Every row that resulted in a Y value of 1, we represented with an equation of A & B & C & D, with the not's appropriately inserted. Then, we constructed a KMap from the truth table. We created groups of terms 
+In this lab, we generated a naive equation to represent the truth table we were given. Every row that resulted in a Y value of 1, we represented with an equation of A & B & C & D, with the not's appropriately inserted. Then, we constructed a KMap from the truth table. We grouped terms together that we could simplifiy to create expressions that represent that group. Then, we combined all of those expressions to create an overall equation for Y, which was much simpler thant the initial naive equation we created. We followed the same process again but inverted all of the 1's and 0 values. The expressions we created from this KMap represented !Y. We used De Morgan's law to tranform that equation to one that represents Y. We then simulated and tested to ensure all three equations matched.
 
 ## Lab Questions
 
