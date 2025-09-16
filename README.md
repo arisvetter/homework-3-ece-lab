@@ -21,7 +21,7 @@ In this lab, we generated a naive equation to represent the truth table we were 
 
 ### Why are the groups of 1’s (or 0’s) that we select in the KMap able to go across edges?
 
-The groups are able to go across edges because when moving from the end of one row back to the start of that row (or the end of one column back to the start of the column), only 1 variable changes. For instance, the final column in an AB x CD KMap is 10, and the first colum in 00. In the transition from the last column to the first column, only the variable B is changing. If only one variable is changing, we can group the outputs together. We could really more accurately represent each column and each row as a circle, or the overall KMAp as a torus, but for ease of creating it do not.
+The groups are able to go across edges because when moving from the end of one row back to the start of that row (or the end of one column back to the start of the column), only 1 variable changes. For instance, the final column in an AB x CD KMap is 10, and the first colum in 00. In the transition from the last column to the first column, only the variable B is changing. If only one variable is changing, we can group the outputs together. We could really more accurately represent each column and each row as a circle, or the overall KMAp as a torus, but for ease of creating and using it do not.
 
 ### Why are the names Sum of Products and Products of Sums?
 
