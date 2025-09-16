@@ -28,4 +28,4 @@ The groups are able to go across edges because when moving from the end of one r
 
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
-
+In test.v, we use XOR to compare the output of the naive equation we created with the output of our minterm, and then the naive equation with the output of our maxterm. Because all of these equations were derived from the same truth table, the outputs should always match. We assume that our naive equation is correct for test.v. As XOR only results in a truth when exactly one of the inputs is 1, the XOR logic will only result in a truth when something is wrong and one of our equations doesn't match. At that point, test.v displays a message that either the maxterm or the minterm doesn't match.
